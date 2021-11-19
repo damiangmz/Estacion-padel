@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background: rgb(241,138,10);
+    background: linear-gradient(90deg, rgba(241,138,10,1) 0%, rgba(255,217,59,1) 27%, rgba(255,217,59,1) 50%, rgba(255,217,59,1) 74%, rgba(241,138,10,1) 100%);
+    max-height: 250px;
+    margin-bottom: 10px;
+}
+li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Titan One', cursive;
+    width: 100%;
+    position:fixed;
+    z-index: 500;
+}
+nav li{
+    list-style: none;
+    padding: 10px 15px;
+    background-color:black;
+    color: rgb(247, 246, 244);
+    border:1px solid 0;
+    text-align:center;
+}
+nav a{
+    text-decoration:none;
+    color:inherit;
+    
+}
+nav li:hover{
+    background-color:rgb(240, 119, 6);
+    color:white;
+    }
+body{  
+    background-image: url(../imagenes/fondobody2.jpg);  
+    background-size: cover;   
+}
+.articulo1{
+    width: 50%;
+}
+.seccion1{
+    
+    
+    text-align: center;
+    
+}
+.titulo1{
+    font-size: 30px;
+    font-family: 'Tourney', cursive;
+    color: #e9770c;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 3px 3px #f3f3f2, 5px 5px #050f0f;
+    margin-bottom: 10px;
+
+}
+.p1{
+    font-family: 'Merienda One', cursive;
+    margin-left: 130px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: justify;
+    text-shadow: 1px 1px #080808, 1px 1px #070202, 1px 1px #080606, 1px 1px #111102;
+    font-size: 18px;
+
+    
+    max-width: 80%;
+    padding: 10px;
+    background: rgba(122, 109, 102, 0.678);
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    color: white;
+    
+    
+}
+.imagen1{
+    width: 70%;
+    height: 70%;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;  
+}
+footer{
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    text-align: center;
+    justify-content: center
+    
+    
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.iconoface{
+    font-size: 40px;
+    color: white;
+    box-shadow: grey 0px 0px 5px 0px;
+}
+.iconoinsta{
+    font-size: 40px;
+    color: white;
+    box-shadow: grey 0px 0px 5px 0px;
+
+}
+.iconotw{
+    font-size: 40px;
+    color: white;
+    box-shadow: grey 0px 0px 5px 0px;
+
+} 
+
+.redes{
+    padding: 10px;
+}
+    
+
+
+a{
+    text-decoration: none;
+}
+
+    
+
+.ubi{
+    font-size: 12px;
+    color: white;
+    font-family: 'Tourney', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+h2{
+    font-size: 15px;
+}
+.direccion{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.copy{
+    color: white;
+    font-size: 15px;
+    
+} 
+.firma{
+    color: white;
+    font-size:40px;
+    font-family: 'Festive', cursive;
+}
+.principal_servicios{
+    display: flex;
+    flex-direction: column;
+    
+}
+.principal_servicios h1{
+    font-size: 25px;
+    font-family: 'Tourney', cursive;
+    color: #e9770c;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 3px 3px #f3f3f2, 5px 5px #050f0f;
+}
+.seccion1_servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cancha_servicios{
+    max-width: 800px;
+    max-height: 500px;
+}
+.buffet{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.seccion_buffet{
+    justify-content: center;
+    text-align: center;
+}
+.comida{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+.hamburguesa{
+    width: 400px;
+    padding: 15px;
+    padding: 20px;
+
+}
+.pizza{
+   width: 400px; 
+   height: 325px;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+.tostado{
+   width: 400px; 
+   height: 325px;
+   padding: 20px;
+   
+}.pbuffet{
+    font-family: 'Merienda One', cursive;
+    padding: 30px;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 1px 1px #f3f3f2;
+    
+}
+.alquiler{
+    font-family: 'Merienda One', cursive;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 1px 1px #f3f3f2;
+    margin-left: 150px;
+    
+    
+}
+.titulo_alquiler{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.reservas{
+    font-family: 'Merienda One', cursive;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 1px 1px #f3f3f2;
+    margin-bottom: 20px;
+}
+
+.instalaciones{
+    font-family: 'Merienda One', cursive;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 1px 1px #f3f3f2;
+    margin-bottom: 20px;
+}
+
+.maintienda{
+    display: flex;
+    flex-direction: column;
+}
+ .seccion1_tienda{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }   
+.seccion2_tienda{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:center
+}
+.seccion2_tienda img{
+    width: 200px;
+    height: 320px;
+}
+.paleta1{
+    width: 25%;
+    margin-bottom: 20px;
+}
+.paleta2{
+    width: 25%;
+    margin-bottom: 20px;
+}
+.pelota1{
+    width: 25%;
+    margin-bottom: 20px;
+}
+.pelota2{
+    width: 25%;
+    margin-bottom: 20px;
+    
+}
+.titulo_tienda{
+    font-size: 28px;
+    font-family: 'Tourney', cursive;
+    color: #e9770c;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 3px 3px #f3f3f2, 5px 5px #050f0f;
+
+}
+.ptienda{
+    font-family: 'Merienda One', cursive;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 1px 1px #f3f3f2;
+    padding: 20px;
+    text-align: center;
+
+}  
+h3{
+    font-family: 'Merienda One', cursive;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 1px 1px #f3f3f2;
+    padding: 20px;
+
+}
+.p5{
+    font-family: 'Merienda One', cursive;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 1px 1px #f3f3f2;
+    font-size: 12px;
+    margin: 15px;
+}
+.mainnove{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.mainnove2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.titulo_novedades{
+    font-size: 28px;
+    font-family: 'Tourney', cursive;
+    color: #e9770c;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 3px 3px #f3f3f2, 5px 5px #050f0f;
+    text-align: center;
+    padding: 20px;
+}
+.precio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Merienda One', cursive;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 1px 1px #f3f3f2;
+    font-size: 15px;
+}
+.imgtienda1{
+    text-align: center;
+}
+.boton-tienda{
+    padding: 5px;
+    font-family: 'Merienda One', cursive;
+    text-shadow: -1px 1px #130101, -1px -1px #070707, 1px -1px #080808, 1px 1px #070706;
+    font-size: 15px;
+    background-color: rgb(250, 133, 56);
+    box-shadow: -2px -1px 13px 2px rgba(0,0,0,0.72);
+    -webkit-box-shadow: -2px -1px 13px 2px rgba(0,0,0,0.72);
+    -moz-box-shadow: -2px -1px 13px 2px rgba(0,0,0,0.72);
+    color: white;
+    border: none;
+}
+.boton-nav{
+    border: none;
+    background-color: unset;
+    color: white;
+    font-size: 18px;
+    font-family: 'Titan One', cursive;
+}
+.main-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom: 20px;
+    
+   
+   
+}
+
+.titulo-formu{
+    font-family: 'Tourney', cursive;
+    color: #e9770c;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 3px 3px #f3f3f2, 5px 5px #050f0f;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.mapa{
+    font-family: 'Tourney', cursive;
+    color: #e9770c;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 3px 3px #f3f3f2, 5px 5px #050f0f;
+    text-align: center;
+    font-size: 20px;;
+}
+.google{
+    margin-top: 20px;  
+}
+.formu-datos{
+    font-size: 20px;
+    font-family: 'Merienda One', cursive;
+    text-shadow: -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff, 1px 1px #f3f3f2;
+    padding: 30px;
+    
+}
