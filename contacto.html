@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>La Estacion Paddle | Inicio </title>
-        <link rel="stylesheet" href="css/estilos.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-        <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
-       
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Estacion Paddle | Inicio </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+</head>
 
 <body>
-    <header>       
-        <div class="logo"> 
-            <img  src="imagenes/logoestacionfinal.png" alt="logo" width="500">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse bg-light" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">
+                    <img src="/imagenes/logoestacionfinal-nav.png" width="250" height="90"
+                        class="d-inline-block align-top" alt="">
+                </a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-2">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">INICIO <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">SERVICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">TIENDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="novedades.html">NOVEDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+            </div>
+        </nav>
         </div>
-        <nav>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="servicios.html">SERVICIOS</a></li>
-            <li><a href="tienda.html">TIENDA</a></li>
-            <li><a href="novedades.html">NOVEDADES</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
-            <li><form action="https://wa.me/2974096578" target="blank">
-                <input class="boton-nav" type="submit"  value="RESERVA TU TURNO"/>
-               </form> </li>            
-        </nav>   
     </header>
-   
+
 
     <main class="main-contacto">
-        
-        <section> 
+
+        <section>
             <h2 class="titulo-formu">Formulario de contacto</h2>
             <div class="formulario">
                 <form action="">
@@ -45,7 +62,7 @@
                         <legend>Datos de perfil</legend>
                         <div>
                             <label for="nombre">Nombre</label>
-                            <input type="text" name="nombre"  id="nombre" placeholder="Ingresa tu nombre" id="nombre">
+                            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" id="nombre">
                         </div>
                         <div>
                             <label for="apellido">Apellido</label>
@@ -54,7 +71,7 @@
                         <div>
                             <label for="telefono">Telefono</label>
                             <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono">
-                        </div>                    
+                        </div>
                         <div>
                             <label for="comentario">Comentario</label>
                             <textarea name="comentario" id="comentario" cols="50" rows="15"></textarea>
@@ -66,26 +83,60 @@
 
         <section class="mapa">
             <h1>Ubicacion</h1>
-            <iframe class="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.5065045177807!2d-67.50049298392926!3d-45.861175143328666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde454fe96855585%3A0xde2823b441fcdd21!2sSan%20Mart%C3%ADn%201560%2C%20U9000AJF%20Comodoro%20Rivadavia%2C%20Chubut!5e0!3m2!1ses-419!2sar!4v1631748281056!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="google"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.5065045177807!2d-67.50049298392926!3d-45.861175143328666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde454fe96855585%3A0xde2823b441fcdd21!2sSan%20Mart%C3%ADn%201560%2C%20U9000AJF%20Comodoro%20Rivadavia%2C%20Chubut!5e0!3m2!1ses-419!2sar!4v1631748281056!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
     </main>
-    
-    
 
-    <footer >
-        <div class="social">
-            <ul class="pie">
-               <li class="redes"><a href="https://www.facebook.com/"target="blank"><span class="jam jam-facebook-circle iconoface"></span></li></a>
-               <li class="redes"><a href="https://www.instagram.com/?hl=es"target="blank"><span class="jam jam-instagram iconoinsta"></span></li></a>
-               <li class="redes"><a href="https://twitter.com/?lang=es"target="blank"><span class="jam jam-twitter iconotw"></span></li></a>
-            </ul> 
-            <div>    
-                <h1 class="firma">Damian Gomez </h1>
-            </div>              
-        </div>  
-    </footer>
-    
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Alquiler de canchas</a></li>
+                            <li><a href="#">Buffet</a></li>
+                            <li><a href="#">Clases</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>La estacion padel</h3>
+                        <p>Paletas, amigos y un plan que siempre es divertido. Trajimos a Comodoro Rivadavia las últimas
+                            tendencias en padel. Volvé a disfrutar este deporte en nuestras canchas de césped sintético,
+                            cubiertas y
+                            descubiertas panorámicas. Podes tomar clases grupales e individuales, no hay excusas! La
+                            simpleza de un
+                            deporte que volvió con todo.</p>
+                    </div>
+                    <div class="col item social"><a href="https://www.facebook.com/laestacionclubdepadel"
+                            target="blank"><i class="icon ion-social-facebook"></i></a><a
+                            href="https://www.instagram.com/plaestacion/?hl=es" target="blank"><i
+                                class="icon ion-social-instagram"></i></a><a href="#"><i
+                                class="icon ion-social-snapchat"></i></a><a href="#"><i
+                                class="icon ion-social-twitter"></i></a></div>
+                </div>
+                <p class="copyright">Estacion padel © 2021</p>
+            </div>
+        </footer>
+    </div>
 
 
+
+
+
+
+
+<script src="/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

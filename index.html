@@ -1,81 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Estacion Paddle | Inicio </title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
-   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Estacion Paddle | Inicio </title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>       
-        <div class="logo"> 
-            <img  src="imagenes/logoestacionfinal.png" alt="logo" width="500">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse bg-light" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">
+          <img src="/imagenes/logoestacionfinal-nav.png" width="250" height="90" class="d-inline-block align-top"
+            alt="">
+        </a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-2">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">INICIO <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">SERVICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda.html">TIENDA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="novedades.html">NOVEDADES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">CONTACTO</a>
+          </li>
+      </div>
+    </nav>
+    </div>
+  </header>
+
+
+
+
+
+  <Main>
+    <section class sec1>
+      <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/seccion1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-dark p-1 text-white bg-opacity-50">
+                  <h5>Bienvenidos!</h5>
+                  <p>La estacion es un club de pádel de Comodoro Rivadavia, ubicado en la loma, una zona de fácil acceso
+                    y aparcamiento.</p>
+                </div>
+
+
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/seccion2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-dark p-1 text-white bg-opacity-50">
+                  <p> Desde un principio, la estacion nace para convertirse en un referente en el mundo del pádel
+                    provincial y regional, apostando por una oferta de servicios de calidad.</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/seccion3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="bg-dark p-1 text-white bg-opacity-50">
+                  <p>La estacion ofrece una amplia gama de servicios relacionados con el pádel, desde alquiler de
+                    pistas, escuela, tienda, eventos, etc.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <nav>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="servicios.html">SERVICIOS</a></li>
-            <li><a href="tienda.html">TIENDA</a></li>
-            <li><a href="novedades.html">NOVEDADES</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
-            <li><form action="https://wa.me/2974096578" target="blank">
-                <input class="boton-nav" type="submit"  value="RESERVA TU TURNO"/>
-               </form> </li>           
-        </nav>   
-    </header>
-   
-    
+      </div>
 
-    <Main>
-        <div>
-            <section class="seccion1">
-                <article>
-                    <div>
-                        <h1 class="titulo1">¡Bienvenidos!</h1>
-                    </div>       
-                    <div class="p1">
-                        <p>La estacion es un club de pádel de Comodoro Rivadavia, ubicado en la loma, una zona de fácil acceso y aparcamiento.
-                            Desde un principio, la estacion nace para convertirse en un referente en el mundo del pádel provincial y regional, apostando por una oferta de servicios de calidad.
-                            La estacion ofrece en sus pistas profesionales, oficiales del Pádel ProTour, una amplia gama de servicios relacionados con el pádel, desde alquiler de pistas, escuela, clinics, eventos, ranking, etc.</p>
-                    </div>
-                    <div>
-                        <img class="imagen1" src="imagenes/imagenportadabody.jpg" alt="">
-                    </div>
-                       
-                </article>   
-            </section> 
-            
+    </section>
+
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="#">Alquiler de canchas</a></li>
+                <li><a href="#">Buffet</a></li>
+                <li><a href="#">Clases</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>About</h3>
+              <ul>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>La estacion padel</h3>
+              <p>Paletas, amigos y un plan que siempre es divertido. Trajimos a Comodoro Rivadavia las últimas
+                tendencias en padel. Volvé a disfrutar este deporte en nuestras canchas de césped sintético, cubiertas y
+                descubiertas panorámicas. Podes tomar clases grupales e individuales, no hay excusas! La simpleza de un
+                deporte que volvió con todo.</p>
+            </div>
+            <div class="col item social"><a href="https://www.facebook.com/laestacionclubdepadel" target="blank"><i
+                  class="icon ion-social-facebook"></i></a><a href="https://www.instagram.com/plaestacion/?hl=es"
+                target="blank"><i class="icon ion-social-instagram"></i></a><a href="#"><i
+                  class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+          </div>
+          <p class="copyright">Estacion padel © 2021</p>
         </div>
-       
-            <footer >
-                <div class="social">
-                    <ul class="pie">
-                       <li class="redes"><a href="https://www.facebook.com/"target="blank"><span class="jam jam-facebook-circle iconoface"></span></li></a>
-                       <li class="redes"><a href="https://www.instagram.com/?hl=es"target="blank"><span class="jam jam-instagram iconoinsta"></span></li></a>
-                       <li class="redes"><a href="https://twitter.com/?lang=es"target="blank"><span class="jam jam-twitter iconotw"></span></li></a>
-                    </ul> 
-                    <div>    
-                        <h1 class="firma">Damian Gomez </h1>
-                    </div>              
-                </div>  
-            </footer>
-
-       
-        
-
-    </Main>
+      </footer>
+    </div>
 
 
+
+  </Main>
+
+  <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
 
+</html>
