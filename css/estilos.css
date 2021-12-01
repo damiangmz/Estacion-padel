@@ -476,3 +476,34 @@ h2{
      margin-bottom: 30px;
      margin-top: 30px;
  }
+
+ @media only screen and (max-width: 768px) {
+    .logonav {
+        display: none;
+     }
+
+ }
+    
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+
+}
+
+.header1 {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.main-cont{
+    margin-top: 100px;
+    
+    
+}
+.sec-cont{
+    margin-bottom: 30px;
+}
+.sec-ind{
+    margin-bottom: 50px;
+}

@@ -19,69 +19,101 @@
 </head>
 
 <body>
-    <header>
+    <header class="head-cont">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+          <div class="container ">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse bg-light" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#">
-                    <img src="imagenes/logoestacionfinal-nav.png" width="250" height="90"
-                        class="d-inline-block align-top" alt="">
-                </a>
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-2">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="servicios.html">SERVICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tienda.html">TIENDA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="novedades.html">NOVEDADES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">CONTACTO</a>
-                    </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tienda.html">TIENDA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="novedades.html">NOVEDADES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+              </ul>
+              <div>
+                <img class="logonav" src="imagenes/logoestacionfinal-nav.png" alt="">
+              </div>
             </div>
+          </div>
         </nav>
-        </div>
-    </header>
+       
+      </header>
 
 
-    <main class="main-contacto">
-        <section>
+    <main class="main-cont">
+        <section class="sec-cont">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="formulario">
-                            <form action="">
-                                <fieldset class="formu-datos">
-                                    <legend>Datos de perfil</legend>
-                                    <div>
-                                        <label for="nombre">Nombre</label>
-                                        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre"
-                                            id="nombre">
+                        <div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="well well-sm">
+                                            <form class="form-horizontal" method="post">
+                                                <fieldset>
+                                                    <legend class="text-center header1">Contactános </legend>
+                            
+                                                    <div class="form-group">
+                                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                                        <div class="col-md-8">
+                                                            <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                                        <div class="col-md-8">
+                                                            <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="form-group">
+                                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                                        <div class="col-md-8">
+                                                            <input id="email" name="email" type="text" placeholder="Direccion de email" class="form-control">
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="form-group">
+                                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                                        <div class="col-md-8">
+                                                            <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="form-group">
+                                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                                        <div class="col-md-8">
+                                                            <textarea class="form-control" id="message" name="message" placeholder="Ingrese su masaje para nosotros aquí. Nos comunicaremos con usted en un plazo de 2 días hábilesS." rows="7"></textarea>
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="form-group">
+                                                        <div class="col-md-12 text-center">
+                                                            <button type="submit" class="btn btn-primary btn-lg tex">Enviar</button>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </form>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <label for="apellido">Apellido</label>
-                                        <input type="text" name="apellido" id="apellido"
-                                            placeholder="Ingresa tu apellido">
-                                    </div>
-                                    <div>
-                                        <label for="telefono">Telefono</label>
-                                        <input type="tel" name="telefono" id="telefono"
-                                            placeholder="Ingresa tu telefono">
-                                    </div>
-                                    <div>
-                                        <label for="comentario">Comentario</label>
-                                        <textarea name="comentario" id="comentario" cols="50" rows="15"></textarea>
-                                    </div>
-                                </fieldset>
-                            </form>
+                                </div>
+                            </div>
+                            
                         </div>
 
                     </div>
@@ -100,34 +132,6 @@
         </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section>
-            <h2 class="titulo-formu">Formulario de contacto</h2>
-
-        </section>
-
-        <section class="mapa">
-
-        </section>
-    </main>
 
     <div class="footer-dark">
         <footer>
