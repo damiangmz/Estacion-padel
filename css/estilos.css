@@ -325,6 +325,20 @@ h2{
    
    
 }
+.main-cont{
+   margin-top: 150px;
+}
+.container_mapa{
+    width: 100%;
+}
+.cont_bot{
+    padding: 10px;
+}
+.sec-cont{
+    margin-bottom: 20px;
+}
+
+
 
 .titulo-formu{
     font-family: 'Tourney', cursive;
@@ -384,14 +398,6 @@ h2{
   .footer-dark ul a:hover {
     opacity:0.8;
   }
-
-
-@media (max-width: 768px) {
-   
-}
-
-
-
 
   
   @media (max-width:767px) {
@@ -513,6 +519,18 @@ h2{
     }
     body{
         margin-top: 100px;
+    }
+    .container_mapa{
+        width: 100%;
+    }
+    .torneo{
+        width: 100%;
+    }
+    .main-nov{
+        margin-top: 150px;
+    }
+    .main-cont{
+        margin-top: 120px;
     }
  }
 
